@@ -1,23 +1,23 @@
 class Daslang < Formula
   desc "High-performance statically-typed scripting language for games and real-time applications"
   homepage "https://daslang.io"
-  version "0.6.4-rc2"
+  version "0.6.4-rc4"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC2/daslang-bundle-darwin26-arm64.zip"
-      sha256 "4c8810219f172b6e3adfc9f12628ee851a943c305d3f816cbb00d4781ecb986d"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC4/daslang-bundle-darwin26-arm64.zip"
+      sha256 "955cf134db7e45dd83151ee23baffe496d5317c083a20438867e95be023d4655"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC2/daslang-bundle-linux-x86_64.zip"
-      sha256 "a93f8ebb0be14a725a19cf64e268688b9849261fded5bd6169729f43413c4c76"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC4/daslang-bundle-linux-x86_64.zip"
+      sha256 "fe8ac0d25364d0e209108176a1beb1056591481205059dfa72a18f38232ee20c"
     end
     on_arm do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC2/daslang-bundle-linux-arm64.zip"
-      sha256 "ccdf30bf3cc808cc524cd9a94765f80b2e2e2b7e016f35d2ed0c6521fa4d92b0"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.4-RC4/daslang-bundle-linux-arm64.zip"
+      sha256 "cc499b2ee700eea0d11691e5a8c815a1ff443a88220bb29fd5bf8c8d7bc5e39f"
     end
   end
 
@@ -30,7 +30,6 @@ class Daslang < Formula
     libexec.install Dir["#{root}/*"]
     bin.install_symlink libexec/"bin/daslang"
     bin.install_symlink libexec/"bin/daslang-live"
-    bin.install_symlink libexec/"bin/gen1_to_gen2"
   end
 
   test do
