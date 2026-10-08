@@ -1,6 +1,6 @@
 cask "dasllama" do
   version "0.6.5-rc1"
-  sha256 "c125d05ad2752e3c7863c151049fbe7ca6be48f143b0a885900349a1f749af37"
+  sha256 "fb9a93ef077550e6180374cf84afc564f2c056fe4ccc1fbd615cfcc7168050e3"
 
   url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/dasllama-darwin-arm64.zip"
   name "dasllama"
