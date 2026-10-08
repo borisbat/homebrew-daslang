@@ -7,17 +7,17 @@ class Dasllama < Formula
   on_macos do
     on_arm do
       url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/dasllama-darwin-arm64.zip"
-      sha256 "5f64f03644a4ae74b6d9d5c80d110105c25b7cb5c51afba8ad658ab75bdf0b93"
+      sha256 "c125d05ad2752e3c7863c151049fbe7ca6be48f143b0a885900349a1f749af37"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/dasllama-linux-x86_64.tar.gz"
-      sha256 "87b12772f2a20d71ab71e89bd369f208d5e3b8a0bd88a384fe8c6d458f156363"
+      sha256 "3fc11a652fa3dc2d62d38b486aaffb1aa8ab29f571329f478f18e89a4794cf50"
     end
     on_arm do
       url "https://github.com/GaijinEntertainment/daScript/releases/download/v0.6.5-RC1/dasllama-linux-arm64.tar.gz"
-      sha256 "cec022b205d0de95d5f9a91c4f7df39fbcd0759495b571b5f60f852f170a9a4b"
+      sha256 "251d512f367bdabf7f1b8373dbc4b166e95b3283c9ecdc14aed7a3ff5fc63ae7"
     end
   end
 
