@@ -1,15 +1,13 @@
 cask "dasllama" do
-  version "0.6.6-rc2"
-  sha256 "06a4f4b9ca0ceae2f8896d03335f0a643ef507f0864f1699597f375339feb2a7"
+  version "0.6.6"
+  sha256 "59532db93b61903dfcfa3e8e9ff5fb286386c4e81e7be233d9552b39c9169d2c"
 
-  url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-darwin-arm64.zip"
+  url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6/dasllama-darwin-arm64.zip"
   name "dasllama"
   desc "OpenAI-compatible local LLM server with a menu bar supervisor"
   homepage "https://dasllama.io"
 
   depends_on arch: :arm64
-  # the formula puts the same commands on PATH
-  conflicts_with formula: "dasllama"
 
   # the app's launcher is the watchdog: it starts the server and puts the mark in the menu bar
   app "dasllama-server.app"

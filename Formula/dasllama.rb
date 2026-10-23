@@ -1,23 +1,23 @@
 class Dasllama < Formula
   desc "OpenAI-compatible local LLM server, CLI and benchmark over dasLLAMA"
   homepage "https://dasllama.io"
-  version "0.6.6-rc2"
+  version "0.6.6"
   license "BSD-3-Clause"
 
   on_macos do
     on_arm do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-darwin-arm64.zip"
-      sha256 "06a4f4b9ca0ceae2f8896d03335f0a643ef507f0864f1699597f375339feb2a7"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6/dasllama-darwin-arm64.zip"
+      sha256 "59532db93b61903dfcfa3e8e9ff5fb286386c4e81e7be233d9552b39c9169d2c"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-linux-x86_64.tar.gz"
-      sha256 "3cffb02c4e3f76a4f038bb58334a740f5685c1c28c93fd6e9c4ee1a282031768"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6/dasllama-linux-x86_64.tar.gz"
+      sha256 "67536fcb6e78643dff7f36460e8a289eaab531e1e5f5d254f8980c30638513b7"
     end
     on_arm do
-      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-linux-arm64.tar.gz"
-      sha256 "4fe466639558d6cc6db41365360c69f9c603e4f89de11d66eb8fc72511a0983c"
+      url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6/dasllama-linux-arm64.tar.gz"
+      sha256 "0de689945ec5e08a5f11208d2394c93060f0837a7580d35639cc048d99c35dcc"
     end
   end
 
