@@ -1,8 +1,8 @@
 cask "dasllama" do
-  version "0.6.6-rc1"
-  sha256 "03a27328fa374891cff5bc7f5f90161e0d929abe04f8f5c7991c020bf0277594"
+  version "0.6.6-rc2"
+  sha256 "06a4f4b9ca0ceae2f8896d03335f0a643ef507f0864f1699597f375339feb2a7"
 
-  url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC1/dasllama-darwin-arm64.zip"
+  url "https://github.com/GaijinEntertainment/daScript/releases/download/dasllama-v0.6.6-RC2/dasllama-darwin-arm64.zip"
   name "dasllama"
   desc "OpenAI-compatible local LLM server with a menu bar supervisor"
   homepage "https://dasllama.io"
